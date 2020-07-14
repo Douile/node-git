@@ -1,4 +1,4 @@
-name: Node CI: lint and unit
+name: Node CI - lint and unit
 
 on: [push]
 
