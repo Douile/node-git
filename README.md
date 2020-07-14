@@ -1,5 +1,3 @@
-[![build status](https://secure.travis-ci.org/christkv/node-git.png)](http://travis-ci.org/christkv/node-git)
-
 # Introduction
 
 This is a library for Git written in Node.js. It's as close a port of grit http://github.com/mojombo/grit.
@@ -9,19 +7,14 @@ implemented directly in node-git. Some of the stuff is using the native git comm
 direct javascript code. Also it's fairly synchronous right now but that will hopefully change a little
 by little over time as it gets more stable and I start using it in real life scenarios.
 
+The aim of this fork:
+- Modernize this library: update all classes so they are ES6, use promises instead of callbacks, and ideally remove sync calls.
+- Add documentation via jsdoc
+
 ## Github information
 
-The source code is available at http://github.com/christkv/node-git.
-You can either clone the repository or download a tarball of the latest release.
+The source code is available at http://github.com/douile/node-git.
 
-Once you have the source you can test the driver by running
-
-	$ make test
-
-On windows:
-
-	PS > node.exe .\node_modules\nodeunit\bin\nodeunit .\test
-	
 ## Examples
 
 For simple examples of usage look at the tests included in the repository.
